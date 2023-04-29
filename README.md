@@ -184,7 +184,7 @@ You will see a short output.
 ```bash
 python3 -m fastchat.serve.gradio_web_server
 ```
-
+Note: before launching the webserver, make sure your worker(s) and controller are online, if not requests will fail in the web interface.
 This is the user interface that users will interact with.
 
 By following these steps, you will be able to serve your models using the web UI. You can open your browser and chat with a model now.
